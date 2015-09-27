@@ -1,0 +1,189 @@
+fileFormatVersion: 2
+guid: 71ff620133210cb4c967b31a3c01bf63
+timeCreated: 1443380663
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: level
+    100002: //RootNode
+    100004: pod
+    100006: polySurface1
+    100008: polySurface10
+    100010: polySurface11
+    100012: polySurface3
+    100014: polySurface4
+    100016: polySurface5
+    100018: polySurface7
+    100020: polySurface9
+    100022: transform1
+    100024: transform10
+    100026: transform11
+    100028: transform12
+    100030: transform13
+    100032: transform14
+    100034: transform15
+    100036: transform16
+    100038: transform17
+    100040: transform18
+    100042: transform19
+    100044: transform2
+    100046: transform20
+    100048: transform21
+    100050: transform22
+    100052: transform23
+    100054: transform24
+    100056: transform25
+    100058: transform3
+    100060: transform4
+    100062: transform5
+    100064: transform6
+    100066: transform7
+    100068: transform8
+    100070: transform9
+    100072: zad_prmijer1
+    100074: zad_prmijer10
+    100076: zad_prmijer11
+    100078: zad_prmijer12
+    100080: zad_prmijer13
+    100082: zad_prmijer2
+    100084: zad_prmijer3
+    100086: zad_prmijer4
+    100088: zad_prmijer5
+    100090: zad_prmijer6
+    100092: zad_prmijer7
+    100094: zad_prmijer8
+    100096: zad_prmijer9
+    100098: zid1
+    100100: zid2
+    100102: zid_vanjksi1
+    100104: zid_vanjski2
+    100106: zidovi_unutrasnji
+    100108: zidovi_vanjski
+    400000: level
+    400002: //RootNode
+    400004: pod
+    400006: polySurface1
+    400008: polySurface10
+    400010: polySurface11
+    400012: polySurface3
+    400014: polySurface4
+    400016: polySurface5
+    400018: polySurface7
+    400020: polySurface9
+    400022: transform1
+    400024: transform10
+    400026: transform11
+    400028: transform12
+    400030: transform13
+    400032: transform14
+    400034: transform15
+    400036: transform16
+    400038: transform17
+    400040: transform18
+    400042: transform19
+    400044: transform2
+    400046: transform20
+    400048: transform21
+    400050: transform22
+    400052: transform23
+    400054: transform24
+    400056: transform25
+    400058: transform3
+    400060: transform4
+    400062: transform5
+    400064: transform6
+    400066: transform7
+    400068: transform8
+    400070: transform9
+    400072: zad_prmijer1
+    400074: zad_prmijer10
+    400076: zad_prmijer11
+    400078: zad_prmijer12
+    400080: zad_prmijer13
+    400082: zad_prmijer2
+    400084: zad_prmijer3
+    400086: zad_prmijer4
+    400088: zad_prmijer5
+    400090: zad_prmijer6
+    400092: zad_prmijer7
+    400094: zad_prmijer8
+    400096: zad_prmijer9
+    400098: zid1
+    400100: zid2
+    400102: zid_vanjksi1
+    400104: zid_vanjski2
+    400106: zidovi_unutrasnji
+    400108: zidovi_vanjski
+    2300000: pod
+    2300002: zidovi_unutrasnji
+    2300004: zidovi_vanjski
+    3300000: pod
+    3300002: zidovi_unutrasnji
+    3300004: zidovi_vanjski
+    4300000: pod
+    4300002: zidovi_vanjski
+    4300004: zidovi_unutrasnji
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
