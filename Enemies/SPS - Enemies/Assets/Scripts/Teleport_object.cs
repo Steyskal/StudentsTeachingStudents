@@ -4,6 +4,7 @@ using System.Collections;
 public class Teleport_object : MonoBehaviour {
 
 	Vector3 vek;
+	float z_var;
 
 	// Use this for initialization
 	void Start () {
@@ -17,8 +18,13 @@ public class Teleport_object : MonoBehaviour {
 
 	void OnTriggerEnter (Collider other){
 
-		vek.Set (GameObject.Find ("Player").transform.position.x, 0.702f, 34.8f);
+		if (GameObject.Find ("Player").transform.position.z > 0)
+			z_var = -33;
 
+		if (GameObject.Find ("Player").transform.position.z < 0)
+			z_var = 33;
+
+		vek.Set (GameObject.Find ("Player").transform.position.x, 0.702f, z_var);
 		other.transform.position= vek;
 
 	}
