@@ -4,6 +4,7 @@ using System.Collections;
 public class Player_controller : MonoBehaviour {
 
 	public float speed;				// Brzina kojom će se igrač kretati
+	public float lastSpeed;
 	Rigidbody playerRigidbody;		// Referenca na Rigidbody komponentu lika
 
 	Vector3 movement;				// Vektor u koji spremamo smjer kretanja lika
@@ -78,6 +79,7 @@ public class Player_controller : MonoBehaviour {
 	}
 
 	public void Death(){
+		lastSpeed = speed;
 		// ... stop the player
 		speed = 0.0f;
 
@@ -86,13 +88,30 @@ public class Player_controller : MonoBehaviour {
 
 		// ... call a method after certain amount of time
 		Invoke ("Die", 2.0f);
+
+
 	}
 
 	void Die(){
 		// ... remove players collision property
 		GetComponent<SphereCollider>().isTrigger = true;
 
+		Invoke ("PlayerRespawn", 2.0f);
+
 		// ... destroy this game object after a certain amount of time
-		Destroy(gameObject, 2.0f);
+		//Destroy(gameObject, 2.0f);
 	}
+
+	void PlayerRespawn(){
+		lastH = 0.0f;
+		lastV = 0.0f;
+		speed = lastSpeed;
+		anim.SetTrigger("Respawn");
+		GetComponent<SphereCollider>().isTrigger = false;
+
+		GameManager gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+		gameManager.PlayerRespawn();
+
+	}
+
 }

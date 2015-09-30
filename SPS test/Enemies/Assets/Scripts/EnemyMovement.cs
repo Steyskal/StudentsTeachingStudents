@@ -22,6 +22,10 @@ public class EnemyMovement : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if(GameManager.playerRespawned == true){
+			nav.Resume();
+			GameManager.playerRespawned = false;
+		}
 		// ... set the destination of the nav mesh agent to the player.
 		nav.SetDestination(player.position);
 		// ... set the Speed parameter inside Animator Controller
